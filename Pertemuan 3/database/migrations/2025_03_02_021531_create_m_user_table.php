@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('m_user', function (Blueprint $table) {
-            $table->integer('user_id');
+            $table->id('user_id');
             $table->unsignedBigInteger('level_id')->index(); //indexing untuk Foreignkey
             $table->string('username',20)->unique(); //unique untuk memastikan tidak ada username yang sama
             $table->string('nama',100);
