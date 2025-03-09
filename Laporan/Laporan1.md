@@ -5,8 +5,8 @@
 - **Program Studi**: Teknik Informatika
 - **Semester**: 4 
 - **Praktikum**: Jobsheet 04 – Model dan Eloquent ORM
-- **Nama**: Alvanza Saputra Yudha
-- **NIM**: 2341720182
+- **Nama**: Vincentius Leonanda Prabowo
+- **NIM**: 2341720149
 - **Kelas**: TI-2A
 
 ---
