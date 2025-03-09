@@ -33,7 +33,7 @@
 
 3. **Hasil dari penggunaan fillable pada model**
 
-   ![alt text](image/image.png)
+   ![alt text](img/img1.png)
 
    Data pada tabel user bertambah
 
@@ -43,7 +43,7 @@
    ```
 
 5. **Hasil dari perubahan $fillable**
-   ![alt text](image/image-1.png)
+   ![alt text](img/img2.png.png)
    Terjadi error karena password tidak dituliskan dalam fillable
 
 ---
@@ -64,7 +64,7 @@
 
 3. **Hasil dari penggunaan find**
 
-   ![alt text](image/image-2.png)
+   ![alt text](img/img3.png)
 
    Program hanya menampilkan 1 data dengan id 1 karena kita mengisi fungsi find dengan angka 1
 
@@ -75,7 +75,7 @@
 
 5. **Hasil penggunaan method first()**
 
-   ![alt text](image/image-2.png)
+   ![alt text](img/img4.png)
 
    Program menampilkan data dengan user_id 1 menggunakan fungsi where
 
@@ -86,7 +86,7 @@
 
 7. **Hasil penggunaan method firstWhere()**
 
-    ![alt text](image/image-2.png)
+    ![alt text](img/img5.png)
 
     Program menampilkan data dengan user_id 1 menggunakan fungsi firstWhere
 
@@ -99,13 +99,13 @@
 
 9. **Hasil penggunaan findOr**
 
-   ![alt text](image/image-4.png)
+   ![alt text](img/img6.png)
 
    Program hanya menampilkan username dan nama dari user_id 1
 
 9. **Hasil penggunaan findOr untuk data yang tidak ditemukan**
 
-   ![alt text](image/image-5.png)
+   ![alt text](img/img7.png)
 
    Hasilnya error 404 karena program tidak menemukan data dengan id 20
 
@@ -118,7 +118,7 @@
 
 2. **Hasil penggunaan firstOrFail**
 
-   ![alt text](image/image-6.png)
+   ![alt text](img/img8.png)
 
 3. **Implementasi metode firstOrFail untuk data yang tidak ada**
    ```php
@@ -127,7 +127,7 @@
 
 4. **Hasil error dari firstOrFail**
 
-   ![alt text](image/image-7.png)
+   ![alt text](img/img9.png)
 
 ### Praktikum 2.3 - Retreiving Aggregrates
 
